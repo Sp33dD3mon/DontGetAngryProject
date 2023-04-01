@@ -6,10 +6,10 @@ class Field
 {
 	public:
 		// LOGIC
-		int id;
-		Field* nextField;
-		Field* previousField;
-		Pawn* pawnStandingOnThisField;
+		int id_;
+		Field* nextField_;
+		Field* previousField_;
+		Pawn* pawnStandingOnThisField_;
 
 		Field(int);
 		Field(int, Field*);

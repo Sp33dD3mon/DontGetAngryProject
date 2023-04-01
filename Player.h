@@ -3,5 +3,5 @@
 class Player
 {
 	public:
-		int id;
+		int id_;
 };

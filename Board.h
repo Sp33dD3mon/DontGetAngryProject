@@ -7,7 +7,7 @@
 class Board
 {
 	private:
-		Field fields[40];
+		Field fields_[40];
 	
 
 };
